@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet"href="estilos.css">
+
+    <title>Gobierno de la ciudad TP</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"id="navbar-inicio">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://codoacodo.bue.edu.ar/">
+                <img src="Imagenes/codoacodo.png" alt="Logo" width="20%" class="d-inline-block align-text-center">
+                Conf Bs As
+              </a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#main-header">La conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sec-oradores">Los oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sec-lugar">El lugar y fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sec-inscrip">Conviértete en orador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link "id="textticket" href="#sec_comprartickets">Comprar tickets</a>
+                    </li>
+                </ul>
+          </div>
+
+
+
+
+
+
+        </div>
+    </nav>
+
+    <header class="main-header" id="main-header">
+        <div class="background-overlay text-white py-5">
+          <div class="container">
+            <div class="row d-flex min-vh-100">
+              <div class="col-sm-6">
+           
+              </div>
+              <div class="col-sm-6 text-right  justify-content-right align-self-center">
+                <h1>
+                  Conf Bs As
+                </h1>
+                <p>Llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y
+                  experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento,
+                  otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                <a href="#sec-inscrip" class="btn btn-outline-secondary btn-lg text-white">
+                  Quiero ser orador
+                </a>
+                <a href="#" class="btn  btn btn-success  btn-lg text-white">
+                  Comprar tickets
+                </a>
+              </div>  
+            </div>  
+          </div>    
+        </div>
+      </header>
+
+      <section>
+        <div class="container p-3" id="sec-oradores">
+          <p class="text-center text-black">
+            CONOCE A LOS
+          </p>
+          <h1 class="text-center text-black">ORADORES</h1>
+          <div class="row">
+            <!-- imagen del orador 1er elemento -->
+            <div class="col-lg-4">
+              <div class="card">
+                <img src="Imagenes/steve.jpg" class="img-fluid">
+                <div class="card-body ">
+                  <!-- tags -->
+                  <span class="badge bg-warning text-dark">Javascript</span>
+                  <span class="badge bg-primary">React</span>
+                  <!-- Info del orador -->   
+                  <h3>Steve Jobs</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et voluptatibus perferendis deleniti, totam fuga
+                    sequi iste! Facilis explicabo repellat ut similique incidunt? Ullam nobis beatae, corporis facilis veniam
+                    magni ratione!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- orador 2 elemento-->    
+            <div class="col-lg-4">
+              <div class="card">
+                <img src="Imagenes/bill.jpg" class="img-fluid">
+                <div class="card-body">
+                  <!-- tags -->    
+                  <span class="badge bg-warning text-dark">Javascript</span>
+                  <span class="badge bg-primary">React</span>   
+                  <!-- datos -->    
+                  <h3>Bill Gates</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et voluptatibus perferendis deleniti, totam fuga
+                    sequi iste! Facilis explicabo repellat ut similique incidunt? Ullam nobis beatae, corporis facilis veniam
+                    magni ratione!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- tercera columna orador 3 -->
+            <div class="col-lg-4">
+              <div class="card">
+                <img src="Imagenes/ada.jpeg" class="img-fluid">
+                <div class="card-body">
+                  <!-- tags -->
+                  <span class="badge bg-dark">Negocios</span>
+                  <span class="badge bg-danger">Startup</span>  
+                  <h3>Ada Lovelace</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et voluptatibus perferendis deleniti, totam fuga
+                    sequi iste! Facilis explicabo repellat ut similique incidunt? Ullam nobis beatae, corporis facilis veniam
+                    magni ratione!
+                  </p>
+                </div>
+              </div>
+            </div> 
+          </div>  
+        </div>    
+      </section>
+<!--Seccion lugar card con imagen al lado-->
+      <section>
+        <div id="sec-lugar">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-6 bg-dark">
+                <img src="Imagenes/honolulu.jpg" class="img-fluid" alt="imghonolulu">
+              </div>
+              <div class="col-md-6 text-white bg-dark">
+                <div class="card-body">
+                  <h4 class="card-title">Bs As - Octubre</h4>
+                  <p class="card-text">
+                    Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos.
+                    Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu
+                    se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han
+                    formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km<sup>2</sup> de
+                    superficie).
+                  </p>
+                  <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+                    Conocé más
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+<!--FORMULARIO-->
+      <Section>
+        <div class="container p-3" id="sec-inscrip">
+          <p class="text-center text-black">
+            CONVIÉRTETE EN UN
+          </p>
+          <h1 class="text-center text-black">ORADOR</h1>
+          <p class="text-center text-black">
+            Anótate como orador para dar una <u class="raya-puntosentext"> charla ignite</u>. Cuéntanos de qué quieres hablar!
+          </p>
+          <form action="">
+            <div class="row">
+              <div class="col-5 mb-3">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="nombre_incripcion" placeholder="Nombre">
+                  <label for="nombre_incripcion">Nombre</label>
+                </div>
+              </div>
+              <div class="col-7">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="apellido_inscripcion" placeholder="Apellido">
+                  <label for="apellido_inscripcion">Apellido</label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="form-floating">
+                  <div class="mb-3">
+                    <textarea class="form-control form-control-lg" id="inscriptema" rows="3"
+                      placeholder="Sobre qué quieres hablar?"></textarea>
+                  </div>   
+                  <p>Recuerda incluir un título para tu charla</p>
+                  <div class="boton2">
+                  <div class="d-grid gap-2">
+                    <button class="btn btn-success p-3" type="button">Enviar</button>
+                  </div></div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </Section>
+
+
+      <Section id="sec_comprartickets"><h2 class="text-center"><hr><a></a> </h2>
+        <h2 class="text-center">COMPRAR TICKETS</h2>
+    <div class="container-fluid">
+      <header id="idheader"> 
+      </header>
+          <main>
+  
+           <div class="container" >
+  
+              <div class="row mt-4 justify-content-center" id="div-cards" >
+                  
+                  <div class="col-12 col-md-3 mb-3" >
+                  <div class="rounded-0 border border-primary text-center ">
+                      <h4 class="mt-5">Estudiante</h4>
+                      
+                      <p>Tienen un descuento </p>
+                      <p>80%</p>
+                      <p>*presentar dcumentacion</p>
+                      <p><br></p>
+                    </div>
+                   </div>
+                  
+                  <div class="col-12 col-md-3 mb-3" >
+                  <div class="rounded-0 border border-success text-center ">
+                      <h4 class="mt-5">Trainee</h4>
+                      
+                      <p>Tienen un descuento </p>
+                      <p>50%</p>
+                      <p>*presentar dcumentacion</p>
+                      <p><br></p>
+                    </div>
+                   </div>
+                   
+               <div class="col-12 col-md-3 mb-3" >
+               <div class="rounded-0 border border-warning text-center ">
+                      <h4 class="mt-5">Junior</h4>
+                      
+                      <p>Tienen un descuento </p>
+                      <p>15%</p>
+                      <p>*presentar dcumentacion</p>
+                      <p><br></p>
+                    </div>
+               </div>
+              </div>
+  
+              <div class="formulario2">
+                  <h6 class="text-muted text-center mt-5">VENTA</h6>
+                  <h2 class="text-center">VALOR DEL TICKET $200</h2>
+                  <form id="formfin">
+                      <div class="row">
+                          <div class="col-md-6 mt-5">
+                              <input type="text" class="form-control" placeholder="Nombre">
+                          </div>
+                          <div class="col-md-6 mt-5">
+                              <input id="apellidoticket" type="text" class="form-control" placeholder="Apellido">
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-12 mt-5">
+                              <input type="text" class="form-control" placeholder="Correo">
+                          </div>
+                      </div>
+                      <div class="row">
+                          
+                               <p class="col-md-6 mt-2 text-muted text-left mt-3 mb-0">Cantidad:</p>
+                               <p class="col-md-6 mt-2 text-muted text-right mt-3 mb-0">Categoria:</p>
+                               <div class="col-md-6 mt-3">
+                                  <input class="form-control no-border text-center" type="text" id="cantidadtickets" name="cantidad" placeholder="Cantidad" >
+                              </div>
+                              <div class="col-md-6 mt-3" >
+                                      <select name="Operacion" id="categorias" class="form-select"> <br>   
+                                          <option value="Seleccione" class="dropdown-menu" selected="true"> Seleccione una opci&oacute;n </option>
+                                          <option value="Trainee" class="dropdown-item"> Trainee </option>
+                                          <option value="Junior"class="dropdown-item"> Junior </option>
+                                          <option value="Estudiante"class="dropdown-item"> Estudiante </option>
+                                      </select>
+                              </div>
+                     </div>
+  
+  
+  
+                     <div class="row mt-5 "><!-- start row-->   
+                              <div type="text" class="form-control no-border col-md-12 rounded-2 text-left " id="resultado_text" name="resultado">Total a Pagar: $</div>
+                              
+                          <button type="button" class="btn btn-success col-md-6 mt-2 border-2 rounded-2   text-center  p-2" id="boton1-form2" onclick="funcionBorrar()">Borrar</button>
+                          
+                          <button type="button" class="btn btn-success col-md-6 mt-2 border-5 rounded-2  text-center  p-2" id="boton2-form2"  onclick="funcionResumen();">Resumen             
+                          </button> 
+                     
+                     </div><!-- end row--> 
+
+                     
+                  </form>
+              </div><!-- end div form2--> 
+         
+          </div> <!-- end container--> 
+              
+              
+              
+              <div> <!--//espacio para que los botones no queden pegados al footer-->
+              <footer class="bg-dark mt-5" id="idfooter">    
+              </footer>
+              </div><!-- end footer-->
+          </main>
+      </div>
+
+    </Section>
+
+    </Section>
+<!--FOOTER-->
+      <footer class="footer-background">
+        
+        <div class="rownav-azul p-4">
+          <ul class="nav justify-content-center  ">
+            <li class="nav-item">
+              <a class="nav-link " href="#">Preguntas frecuentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contáctenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Prensa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link "  href="#">Conferencias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Términos y condiciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Privacidad</a>
+            </li>       
+            <li class="nav-item">
+              <a class="nav-link" href="#">Estudiantes</a>
+            </li>                    
+          </ul>
+  
+  
+        </div>
+  
+      </footer>
+  
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="Tickets.js"></script>
+
+
+
+
+
+    
+    
+</body>
+</html>
